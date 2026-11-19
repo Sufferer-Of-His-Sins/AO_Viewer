@@ -1,0 +1,93 @@
+[
+  {
+    "name": "Casitos-Atinaum",
+    "tier": 6,
+    "image": "Casitos-Atinaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 3
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Cases-Ugumlos",
+    "tier": 6,
+    "image": "Cases-Ugumlos.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Casitos-Alieam",
+    "tier": 4,
+    "image": "Casitos-Alieam.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1,
+      "ore": 1,
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Casos-Aiagsum",
+    "tier": 4,
+    "image": "Casos-Aiagsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Casos-Aximam",
+    "tier": 6,
+    "image": "Casos-Aximam.png",
+    "chests": {
+      "blue": 2,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  }
+]
