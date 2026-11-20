@@ -33,10 +33,14 @@ if not defined ISCC goto no_iscc
 echo [4/5] Building EXE...
 if exist dist rmdir /s /q dist
 python -m PyInstaller --noconfirm --clean --windowed --name AvalonMapViewer ^
-  --icon "%ICON%" --collect-all customtkinter  --exclude-module cv2  --exclude-module numpy ^ 
-  --distpath dist --workpath build\work --specpath build\work main.py
-
-if errorlevel 1 goto error
+  --icon "%~dp0assets\icon.ico" ^
+  --collect-all customtkinter ^
+  --exclude-module cv2 --exclude-module numpy ^
+  --distpath "%~dp0dist" ^
+  --workpath "%~dp0build\work" ^
+  --specpath "%~dp0build\work" ^
+  "%~dp0main.py"
+  
 if errorlevel 1 goto error
 
 xcopy /E /I /Y data "%APP%\data" >nul
