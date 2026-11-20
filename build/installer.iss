@@ -19,6 +19,7 @@ WizardStyle=modern
 DisableDirPage=no
 AlwaysShowDirOnReadyPage=yes
 UsePreviousAppDir=yes
+SetupIconFile=..\assets\icon.ico
 UninstallDisplayIcon={app}\{#MyAppExe}
 
 [Languages]
