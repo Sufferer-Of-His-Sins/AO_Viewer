@@ -1,4 +1,35 @@
+from difflib import SequenceMatcher
+
 from avalon.libs import *
+
+
+def normalize(text: str) -> str:
+    return text.lower().replace(" ", "").replace("-", "")
+
+
+def match_score(name: str, query: str):
+    n = normalize(name)
+    q = normalize(query)
+    if not q:
+        return 0
+
+    if n.startswith(q):
+        return 0
+
+    words = name.lower().replace("-", " ").split()
+    if any(w.startswith(q) for w in words):
+        return 1
+
+    if q in n:
+        return 2
+
+    if len(q) >= 4:
+        ratio = SequenceMatcher(None, q, n[:len(q)]).ratio()
+        if ratio >= 0.8:
+            return 3
+
+    return None
+
 
 def load_maps() -> list:
     path = DATA_DIR / "maps.json"
@@ -12,20 +43,17 @@ def load_maps() -> list:
 
 
 def filter_maps(maps: list, query: str) -> list:
-    query = query.strip().lower()
-    if not query:
+    if not query.strip():
         return list(maps)
 
-    filtered = []
+    found = []
     for m in maps:
-        name = m["name"].lower()
-        if query in name or name.startswith(query):
-            filtered.append(m)
-            continue
-        it = iter(name)
-        if all(c in it for c in query):
-            filtered.append(m)
-    return filtered
+        score = match_score(m["name"], query)
+        if score is not None:
+            found.append((score, m["name"].lower(), m))
+
+    found.sort(key=lambda item: (item[0], item[1]))
+    return [m for _, _, m in found]
 
 
 def find_by_name(maps: list, name: str):
@@ -64,10 +92,7 @@ def best_match(maps: list, ocr_text: str):
 
 
 def first_search_hit(maps: list, query: str):
-    query = query.strip().lower()
-    if not query:
+    if not query.strip():
         return None
-    for m in maps:
-        if query in m["name"].lower() or m["name"].lower().startswith(query):
-            return m
-    return None
+    found = filter_maps(maps, query)
+    return found[0] if found else None
