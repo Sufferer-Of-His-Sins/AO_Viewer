@@ -6,6 +6,7 @@ import threading
 
 import customtkinter as ctk
 import pytesseract
+import queue
 from PIL import Image, ImageEnhance, ImageGrab, ImageOps
 
 from avalon.i18n import Translator
