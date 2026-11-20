@@ -33,8 +33,9 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Source: "..\dist\AvalonMapViewer\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs ignoreversion
 
 [Icons]
-Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExe}"
-Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExe}"; Tasks: desktopicon
+[Icons]
+Name: "{autoprograms}\Avalon Map Viewer"; Filename: "{app}\AvalonMapViewer.exe"; IconFilename: "{app}\AvalonMapViewer.exe"
+Name: "{autodesktop}\Avalon Map Viewer"; Filename: "{app}\AvalonMapViewer.exe"; IconFilename: "{app}\AvalonMapViewer.exe"; Tasks: desktopicon
 
 [Run]
 Filename: "{app}\{#MyAppExe}"; Description: "{cm:LaunchProgram,{#MyAppName}}"; Flags: nowait postinstall skipifsilent

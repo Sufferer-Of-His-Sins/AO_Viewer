@@ -4,6 +4,13 @@ cd /d "%~dp0"
 
 set "TESS_DIR=C:\Program Files\Tesseract-OCR"
 set "APP=dist\AvalonMapViewer"
+set "ICON=%CD%\assets\icon.ico"
+
+if not exist "%ICON%" (
+  echo ERROR: Icon not found: %ICON%
+  pause
+  exit /b 1
+)
 
 echo [1/5] Installing Python packages...
 python -m pip install -r requirements.txt pyinstaller
@@ -26,8 +33,10 @@ if not defined ISCC goto no_iscc
 echo [4/5] Building EXE...
 if exist dist rmdir /s /q dist
 python -m PyInstaller --noconfirm --clean --windowed --name AvalonMapViewer ^
-  --icon assets\icon.ico --collect-all customtkinter --exclude-module cv2 --exclude-module numpy ^
+  --icon "%ICON%" --collect-all customtkinter  --exclude-module cv2  --exclude-module numpy ^ 
   --distpath dist --workpath build\work --specpath build\work main.py
+
+if errorlevel 1 goto error
 if errorlevel 1 goto error
 
 xcopy /E /I /Y data "%APP%\data" >nul
