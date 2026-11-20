@@ -10,6 +10,7 @@ class AvalonMapViewer(ctk.CTk):
         self.title("Avalon Map Viewer")
         self.geometry("1280x800")
         self.minsize(1000, 650)
+        self._set_icon()
 
         self.tr = Translator("ru")
         self.maps_data = load_maps()
@@ -57,6 +58,20 @@ class AvalonMapViewer(ctk.CTk):
 
         self.after(100, self._poll_events)
         self.after(100, lambda: self.left.search_entry.focus())
+
+    def _set_icon(self):
+        try:
+            if sys.platform == "win32":
+                ico = ASSETS_DIR / "icon.ico"
+                if ico.exists():
+                    self.after(300, lambda: self.iconbitmap(str(ico)))
+            else:
+                png = ASSETS_DIR / "icon.png"
+                if png.exists():
+                    self._icon_img = PhotoImage(file=str(png))
+                    self.iconphoto(True, self._icon_img)
+        except Exception as e:
+            print(f"[icon] {e}")
 
     def _poll_events(self):
         try:

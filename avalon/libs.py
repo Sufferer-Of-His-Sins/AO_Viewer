@@ -8,6 +8,7 @@ import customtkinter as ctk
 import pytesseract
 import queue
 from PIL import Image, ImageEnhance, ImageGrab, ImageOps
+from tkinter import PhotoImage
 
 from avalon.i18n import Translator
 from avalon.paths import ASSETS_DIR, BASE_DIR, DATA_DIR, LOCALES_DIR, MAPS_DIR

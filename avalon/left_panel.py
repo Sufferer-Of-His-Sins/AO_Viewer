@@ -36,12 +36,17 @@ class LeftPanel(ctk.CTkFrame):
         self.grid_rowconfigure(5, weight=1)
         self.grid_columnconfigure(0, weight=1)
 
+        header = ctk.CTkFrame(self, fg_color="transparent")
+        header.grid(row=0, column=0, sticky="ew", padx=16, pady=(16, 4))
+        self.logo = self._load_logo()
+        if self.logo: ctk.CTkLabel(header, image=self.logo, text="").pack(side="left", padx=(0, 10))
+        
         ctk.CTkLabel(
-            self,
+            header,
             text=self.tr.t("app_title"),
             font=ctk.CTkFont(size=18, weight="bold"),
             anchor="w",
-        ).grid(row=0, column=0, sticky="ew", padx=16, pady=(16, 2))
+        ).pack(side="left")
 
         lang_frame = ctk.CTkFrame(self, fg_color="transparent")
         lang_frame.grid(row=1, column=0, sticky="ew", padx=16, pady=(0, 8))
@@ -139,6 +144,16 @@ class LeftPanel(ctk.CTkFrame):
         )
         self.status.pack(fill="x", padx=12, pady=10)
 
+    def _load_logo(self):
+        path = ASSETS_DIR / "icon.png"
+        if not path.exists():
+            return None
+        try:
+            img = Image.open(path)
+            return ctk.CTkImage(light_image=img, dark_image=img, size=(34, 34))
+        except Exception:
+            return None
+    
     def set_status(self, text: str):
         self.status.configure(text=text)
 

@@ -26,12 +26,14 @@ if not defined ISCC goto no_iscc
 echo [4/5] Building EXE...
 if exist dist rmdir /s /q dist
 python -m PyInstaller --noconfirm --clean --windowed --name AvalonMapViewer ^
-  --collect-all customtkinter --exclude-module cv2 --exclude-module numpy ^
+  --icon assets\icon.ico --collect-all customtkinter --exclude-module cv2 --exclude-module numpy ^
   --distpath dist --workpath build\work --specpath build\work main.py
 if errorlevel 1 goto error
 
 xcopy /E /I /Y data "%APP%\data" >nul
 xcopy /E /I /Y locales "%APP%\locales" >nul
+xcopy /E /I /Y assets "%APP%\assets" >nul
+
 if exist maps (xcopy /E /I /Y maps "%APP%\maps" >nul) else (mkdir "%APP%\maps")
 
 mkdir "%APP%\tesseract\tessdata"
