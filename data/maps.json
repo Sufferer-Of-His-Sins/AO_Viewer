@@ -1,42 +1,5 @@
 [
   {
-    "name": "Casitos-Atinaum",
-    "tier": 6,
-    "image": "Casitos-Atinaum.png",
-    "chests": {
-      "blue": 1,
-      "green": 3,
-      "gold": 3
-    },
-    "resources": {
-      "fiber": 1
-    },
-    "dungeons": {
-      "solo": 0,
-      "group": 0
-    }
-  },
-  {
-    "name": "Cases-Ugumlos",
-    "tier": 6,
-    "image": "Cases-Ugumlos.png",
-    "chests": {
-      "blue": 1,
-      "green": 1,
-      "gold": 0
-    },
-    "resources": {
-      "stone": 1,
-      "wood": 1,
-      "ore": 1,
-      "hide": 1
-    },
-    "dungeons": {
-      "solo": 0,
-      "group": 1
-    }
-  },
-  {
     "name": "Casitos-Alieam",
     "tier": 4,
     "image": "Casitos-Alieam.png",
@@ -46,9 +9,8 @@
       "gold": 0
     },
     "resources": {
-      "fiber": 1,
-      "ore": 1,
-      "stone": 1
+      "stone": 1,
+      "fiber": 1
     },
     "dungeons": {
       "solo": 0,
@@ -70,7 +32,1723 @@
     },
     "dungeons": {
       "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Casos-Uruxtum",
+    "tier": 4,
+    "image": "Casos-Uruxtum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Cebitos-Aeaylum",
+    "tier": 4,
+    "image": "Cebitos-Aeaylum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
       "group": 1
+    }
+  },
+  {
+    "name": "Ceres-Iooinum",
+    "tier": 4,
+    "image": "Ceres-Iooinum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Ceros-Aeaylum",
+    "tier": 4,
+    "image": "Ceros-Aeaylum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cetos-Obaelos",
+    "tier": 4,
+    "image": "Cetos-Obaelos.png",
+    "chests": {
+      "blue": 2,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cieitos-Avioaum",
+    "tier": 4,
+    "image": "Cieitos-Avioaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cieitos-Obaelos",
+    "tier": 4,
+    "image": "Cieitos-Obaelos.png",
+    "chests": {
+      "blue": 2,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cilos-Avioaum",
+    "tier": 4,
+    "image": "Cilos-Avioaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cilos-Ofailos",
+    "tier": 4,
+    "image": "Cilos-Ofailos.png",
+    "chests": {
+      "blue": 2,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Conitos-Ofailos",
+    "tier": 4,
+    "image": "Conitos-Ofailos.png",
+    "chests": {
+      "blue": 2,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Conitos-Oxaeaum",
+    "tier": 4,
+    "image": "Conitos-Oxaeaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Conitos-Uruxtum",
+    "tier": 4,
+    "image": "Conitos-Uruxtum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Coros-Alieam",
+    "tier": 4,
+    "image": "Coros-Alieam.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Coues-Exakrom",
+    "tier": 4,
+    "image": "Coues-Exakrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Curites-Exakrom",
+    "tier": 4,
+    "image": "Curites-Exakrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cuyites-Iooinum",
+    "tier": 4,
+    "image": "Cuyites-Iooinum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cynitos-Aiagsum",
+    "tier": 4,
+    "image": "Cynitos-Aiagsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cynos-Oxaeaum",
+    "tier": 4,
+    "image": "Cynos-Oxaeaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fasitos-Atezsum",
+    "tier": 4,
+    "image": "Fasitos-Atezsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Febos-Acalun",
+    "tier": 4,
+    "image": "Febos-Acalun.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Feritos-Enomaum",
+    "tier": 4,
+    "image": "Feritos-Enomaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fieos-Atezsum",
+    "tier": 4,
+    "image": "Fieos-Atezsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Filos-Abalam",
+    "tier": 4,
+    "image": "Filos-Abalam.png",
+    "chests": {
+      "blue": 2,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Firitos-Alodrom",
+    "tier": 4,
+    "image": "Firitos-Alodrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Firos-Enomaum",
+    "tier": 4,
+    "image": "Firos-Enomaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fonos-Aiugsum",
+    "tier": 4,
+    "image": "Fonos-Aiugsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Foues-Aeaosum",
+    "tier": 4,
+    "image": "Foues-Aeaosum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fuyitos-Acalun",
+    "tier": 4,
+    "image": "Fuyitos-Acalun.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Fynites-Aeaosum",
+    "tier": 4,
+    "image": "Fynites-Aeaosum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fynitos-Abalam",
+    "tier": 4,
+    "image": "Fynitos-Abalam.png",
+    "chests": {
+      "blue": 2,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fynitos-Aiugsum",
+    "tier": 4,
+    "image": "Fynitos-Aiugsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Fynos-Alodrom",
+    "tier": 4,
+    "image": "Fynos-Alodrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hebes-Ouaylos",
+    "tier": 4,
+    "image": "Hebes-Ouaylos.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hebites-Exemrom",
+    "tier": 4,
+    "image": "Hebites-Exemrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hieos-Aiigaum",
+    "tier": 4,
+    "image": "Hieos-Aiigaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hilitos-Aiigaum",
+    "tier": 4,
+    "image": "Hilitos-Aiigaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Honitos-Uxeulum",
+    "tier": 4,
+    "image": "Honitos-Uxeulum.png",
+    "chests": {
+      "blue": 1,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hurites-Ouaylos",
+    "tier": 4,
+    "image": "Hurites-Ouaylos.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Huyos-Uxeulum",
+    "tier": 4,
+    "image": "Huyos-Uxeulum.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hynes-Exemrom",
+    "tier": 4,
+    "image": "Hynes-Exemrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Oasitos-Aoeuam",
+    "tier": 4,
+    "image": "Oasitos-Aoeuam.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oasos-Eraerom",
+    "tier": 4,
+    "image": "Oasos-Eraerom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oasos-Uromlum",
+    "tier": 4,
+    "image": "Oasos-Uromlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Oebitos-Eraerom",
+    "tier": 4,
+    "image": "Oebitos-Eraerom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oebos-Ixakaum",
+    "tier": 4,
+    "image": "Oebos-Ixakaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oeritos-Ecunsum",
+    "tier": 4,
+    "image": "Oeritos-Ecunsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 3,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Oieitos-Ixakaum",
+    "tier": 4,
+    "image": "Oieitos-Ixakaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oieos-Umiutum",
+    "tier": 4,
+    "image": "Oieos-Umiutum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Oonitos-Umiutum",
+    "tier": 4,
+    "image": "Oonitos-Umiutum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Ooros-Ecunsum",
+    "tier": 4,
+    "image": "Ooros-Ecunsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 3,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Ouyos-Aoeuam",
+    "tier": 4,
+    "image": "Ouyos-Aoeuam.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oynitos-Uromlum",
+    "tier": 4,
+    "image": "Oynitos-Uromlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Pasos-Avosam",
+    "tier": 4,
+    "image": "Pasos-Avosam.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Peritos-Avosam",
+    "tier": 4,
+    "image": "Peritos-Avosam.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Peritos-Oconun",
+    "tier": 4,
+    "image": "Peritos-Oconun.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Petitos-Amayam",
+    "tier": 4,
+    "image": "Petitos-Amayam.png",
+    "chests": {
+      "blue": 1,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Pieos-Eterrom",
+    "tier": 4,
+    "image": "Pieos-Eterrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "wood": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Pilitos-Eterrom",
+    "tier": 4,
+    "image": "Pilitos-Eterrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Ponitos-Aiayrom",
+    "tier": 4,
+    "image": "Ponitos-Aiayrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Poros-Aiayrom",
+    "tier": 4,
+    "image": "Poros-Aiayrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Poros-Oconun",
+    "tier": 4,
+    "image": "Poros-Oconun.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Pures-Ouozlum",
+    "tier": 4,
+    "image": "Pures-Ouozlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Puros-Amayam",
+    "tier": 4,
+    "image": "Puros-Amayam.png",
+    "chests": {
+      "blue": 1,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Pynites-Ouozlum",
+    "tier": 4,
+    "image": "Pynites-Ouozlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sases-Aoarsum",
+    "tier": 4,
+    "image": "Sases-Aoarsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sasitos-Umogaum",
+    "tier": 4,
+    "image": "Sasitos-Umogaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Sebos-Avoirom",
+    "tier": 4,
+    "image": "Sebos-Avoirom.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Silos-Apenlum",
+    "tier": 4,
+    "image": "Silos-Apenlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Siritos-Avoirom",
+    "tier": 4,
+    "image": "Siritos-Avoirom.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Sonitos-Ayailos",
+    "tier": 4,
+    "image": "Sonitos-Ayailos.png",
+    "chests": {
+      "blue": 1,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Soritos-Apenlum",
+    "tier": 4,
+    "image": "Soritos-Apenlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Soros-Axaesum",
+    "tier": 4,
+    "image": "Soros-Axaesum.png",
+    "chests": {
+      "blue": 1,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Souos-Umogaum",
+    "tier": 4,
+    "image": "Souos-Umogaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Suyitos-Axaesum",
+    "tier": 4,
+    "image": "Suyitos-Axaesum.png",
+    "chests": {
+      "blue": 1,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Synites-Aoarsum",
+    "tier": 4,
+    "image": "Synites-Aoarsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Synos-Ayailos",
+    "tier": 4,
+    "image": "Synos-Ayailos.png",
+    "chests": {
+      "blue": 1,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tebitos-Igaelum",
+    "tier": 4,
+    "image": "Tebitos-Igaelum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Teros-Auiusum",
+    "tier": 4,
+    "image": "Teros-Auiusum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tetitos-Ayoslum",
+    "tier": 4,
+    "image": "Tetitos-Ayoslum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tetos-Igaelum",
+    "tier": 4,
+    "image": "Tetos-Igaelum.png",
+    "chests": {
+      "blue": 1,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tieos-Ayoslum",
+    "tier": 4,
+    "image": "Tieos-Ayoslum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Touos-Uoemtum",
+    "tier": 4,
+    "image": "Touos-Uoemtum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Turitos-Atatlos",
+    "tier": 4,
+    "image": "Turitos-Atatlos.png",
+    "chests": {
+      "blue": 3,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Turitos-Uoemtum",
+    "tier": 4,
+    "image": "Turitos-Uoemtum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tuyitos-Auiusum",
+    "tier": 4,
+    "image": "Tuyitos-Auiusum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tynos-Atatlos",
+    "tier": 4,
+    "image": "Tynos-Atatlos.png",
+    "chests": {
+      "blue": 3,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xasos-Aeoilos",
+    "tier": 4,
+    "image": "Xasos-Aeoilos.png",
+    "chests": {
+      "blue": 3,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xiles-Aiavlum",
+    "tier": 4,
+    "image": "Xiles-Aiavlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xonites-Aiavlum",
+    "tier": 4,
+    "image": "Xonites-Aiavlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xouitos-Aeoilos",
+    "tier": 4,
+    "image": "Xouitos-Aeoilos.png",
+    "chests": {
+      "blue": 3,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xouitos-Eyoztum",
+    "tier": 4,
+    "image": "Xouitos-Eyoztum.png",
+    "chests": {
+      "blue": 1,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xouos-Aioblos",
+    "tier": 4,
+    "image": "Xouos-Aioblos.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Xuros-Eyoztum",
+    "tier": 4,
+    "image": "Xuros-Eyoztum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xuyitos-Aioblos",
+    "tier": 4,
+    "image": "Xuyitos-Aioblos.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cases-Ugumlos",
+    "tier": 6,
+    "image": "Cases-Ugumlos.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Casitos-Atinaum",
+    "tier": 6,
+    "image": "Casitos-Atinaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 3
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Casitos-Avaelum",
+    "tier": 6,
+    "image": "Casitos-Avaelum.png",
+    "chests": {
+      "blue": 0,
+      "green": 8,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
     }
   },
   {
@@ -88,6 +1766,5184 @@
     "dungeons": {
       "solo": 0,
       "group": 2
+    }
+  },
+  {
+    "name": "Casos-Ayosrom",
+    "tier": 6,
+    "image": "Casos-Ayosrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cebos-Avemlum",
+    "tier": 6,
+    "image": "Cebos-Avemlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Ceritos-Avulsum",
+    "tier": 6,
+    "image": "Ceritos-Avulsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cetitos-Aiayrom",
+    "tier": 6,
+    "image": "Cetitos-Aiayrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cetitos-Avixnum",
+    "tier": 6,
+    "image": "Cetitos-Avixnum.png",
+    "chests": {
+      "blue": 0,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Cetitos-Aximam",
+    "tier": 6,
+    "image": "Cetitos-Aximam.png",
+    "chests": {
+      "blue": 2,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cieites-Ugumlos",
+    "tier": 6,
+    "image": "Cieites-Ugumlos.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cieitos-Ayosrom",
+    "tier": 6,
+    "image": "Cieitos-Ayosrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cieos-Atatlum",
+    "tier": 6,
+    "image": "Cieos-Atatlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cilitos-Opodam",
+    "tier": 6,
+    "image": "Cilitos-Opodam.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Conos-Avaelum",
+    "tier": 6,
+    "image": "Conos-Avaelum.png",
+    "chests": {
+      "blue": 0,
+      "green": 8,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Coritos-Avemlum",
+    "tier": 6,
+    "image": "Coritos-Avemlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Coros-Aiayrom",
+    "tier": 6,
+    "image": "Coros-Aiayrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Coros-Atinaum",
+    "tier": 6,
+    "image": "Coros-Atinaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 3
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Couos-Ayayaum",
+    "tier": 6,
+    "image": "Couos-Ayayaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Couos-Opodam",
+    "tier": 6,
+    "image": "Couos-Opodam.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Curitos-Ayayaum",
+    "tier": 6,
+    "image": "Curitos-Ayayaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Curos-Avulsum",
+    "tier": 6,
+    "image": "Curos-Avulsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cynitos-Atatlum",
+    "tier": 6,
+    "image": "Cynitos-Atatlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Cynos-Avixnum",
+    "tier": 6,
+    "image": "Cynos-Avixnum.png",
+    "chests": {
+      "blue": 0,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fasitos-Oleraum",
+    "tier": 6,
+    "image": "Fasitos-Oleraum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fasitos-Oyuctum",
+    "tier": 6,
+    "image": "Fasitos-Oyuctum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fasos-Ayiotum",
+    "tier": 6,
+    "image": "Fasos-Ayiotum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Feritos-Osinsum",
+    "tier": 6,
+    "image": "Feritos-Osinsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Feros-Oyuctum",
+    "tier": 6,
+    "image": "Feros-Oyuctum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fetos-Aiaylos",
+    "tier": 6,
+    "image": "Fetos-Aiaylos.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 4
+    }
+  },
+  {
+    "name": "Fieites-Unavtum",
+    "tier": 6,
+    "image": "Fieites-Unavtum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Fieos-Aiuttum",
+    "tier": 6,
+    "image": "Fieos-Aiuttum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Firos-Aiavam",
+    "tier": 6,
+    "image": "Firos-Aiavam.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Firos-Osinsum",
+    "tier": 6,
+    "image": "Firos-Osinsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fonitos-Amaurom",
+    "tier": 6,
+    "image": "Fonitos-Amaurom.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fonos-Oleraum",
+    "tier": 6,
+    "image": "Fonos-Oleraum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Foritos-Aiaylos",
+    "tier": 6,
+    "image": "Foritos-Aiaylos.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 4
+    }
+  },
+  {
+    "name": "Foros-Egoisum",
+    "tier": 6,
+    "image": "Foros-Egoisum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fouitos-Aiuttum",
+    "tier": 6,
+    "image": "Fouitos-Aiuttum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fouos-Agosaum",
+    "tier": 6,
+    "image": "Fouos-Agosaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fouos-Amaurom",
+    "tier": 6,
+    "image": "Fouos-Amaurom.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Furitos-Aiavam",
+    "tier": 6,
+    "image": "Furitos-Aiavam.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fuyitos-Ayiotum",
+    "tier": 6,
+    "image": "Fuyitos-Ayiotum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fynes-Unavtum",
+    "tier": 6,
+    "image": "Fynes-Unavtum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Fynitos-Agosaum",
+    "tier": 6,
+    "image": "Fynitos-Agosaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fynitos-Egoisum",
+    "tier": 6,
+    "image": "Fynitos-Egoisum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hasitos-Avaolum",
+    "tier": 6,
+    "image": "Hasitos-Avaolum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hasitos-Umayaum",
+    "tier": 6,
+    "image": "Hasitos-Umayaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hasos-Agoitum",
+    "tier": 6,
+    "image": "Hasos-Agoitum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hasos-Ayousum",
+    "tier": 6,
+    "image": "Hasos-Ayousum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hasos-Inayaum",
+    "tier": 6,
+    "image": "Hasos-Inayaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hasos-Iuimaum",
+    "tier": 6,
+    "image": "Hasos-Iuimaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Hasos-Osuorom",
+    "tier": 6,
+    "image": "Hasos-Osuorom.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Hebitos-Atontum",
+    "tier": 6,
+    "image": "Hebitos-Atontum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hebos-Ulamsum",
+    "tier": 6,
+    "image": "Hebos-Ulamsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Heritos-Exozlos",
+    "tier": 6,
+    "image": "Heritos-Exozlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Heritos-Eyoztum",
+    "tier": 6,
+    "image": "Heritos-Eyoztum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Heritos-Inayaum",
+    "tier": 6,
+    "image": "Heritos-Inayaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Heros-Atoyam",
+    "tier": 6,
+    "image": "Heros-Atoyam.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Hetitos-Iuaerom",
+    "tier": 6,
+    "image": "Hetitos-Iuaerom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hieos-Avaolum",
+    "tier": 6,
+    "image": "Hieos-Avaolum.png",
+    "chests": {
+      "blue": 1,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hilites-Ugumtum",
+    "tier": 6,
+    "image": "Hilites-Ugumtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hilitos-Osuorom",
+    "tier": 6,
+    "image": "Hilitos-Osuorom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hiros-Exozlos",
+    "tier": 6,
+    "image": "Hiros-Exozlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Hiros-Iuaerom",
+    "tier": 6,
+    "image": "Hiros-Iuaerom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Honos-Umayaum",
+    "tier": 6,
+    "image": "Honos-Umayaum.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Horos-Ohenlum",
+    "tier": 6,
+    "image": "Horos-Ohenlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hures-Ugumtum",
+    "tier": 6,
+    "image": "Hures-Ugumtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Huritos-Iuimaum",
+    "tier": 6,
+    "image": "Huritos-Iuimaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Huritos-Oiaelos",
+    "tier": 6,
+    "image": "Huritos-Oiaelos.png",
+    "chests": {
+      "blue": 1,
+      "green": 9,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Huros-Atontum",
+    "tier": 6,
+    "image": "Huros-Atontum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Huyes-Ogozlum",
+    "tier": 6,
+    "image": "Huyes-Ogozlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Huyitos-Agoitum",
+    "tier": 6,
+    "image": "Huyitos-Agoitum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Huyitos-Ohenlum",
+    "tier": 6,
+    "image": "Huyitos-Ohenlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Huyos-Eyoztum",
+    "tier": 6,
+    "image": "Huyos-Eyoztum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Hynites-Ogozlum",
+    "tier": 6,
+    "image": "Hynites-Ogozlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hynitos-Atoyam",
+    "tier": 6,
+    "image": "Hynitos-Atoyam.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Hynitos-Ayousum",
+    "tier": 6,
+    "image": "Hynitos-Ayousum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hynitos-Ulamsum",
+    "tier": 6,
+    "image": "Hynitos-Ulamsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "wood": 1,
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hynos-Oiaelos",
+    "tier": 6,
+    "image": "Hynos-Oiaelos.png",
+    "chests": {
+      "blue": 1,
+      "green": 9,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Oebitos-Oyozam",
+    "tier": 6,
+    "image": "Oebitos-Oyozam.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 1
+    },
+    "resources": {
+      "ore": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oeritos-Oyexlos",
+    "tier": 6,
+    "image": "Oeritos-Oyexlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oetos-Ofailos",
+    "tier": 6,
+    "image": "Oetos-Ofailos.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Oetos-Oyexlos",
+    "tier": 6,
+    "image": "Oetos-Oyexlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Oires-Oloblum",
+    "tier": 6,
+    "image": "Oires-Oloblum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oiritos-Eramtum",
+    "tier": 6,
+    "image": "Oiritos-Eramtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Oiros-Alaiam",
+    "tier": 6,
+    "image": "Oiros-Alaiam.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Ooros-Ataltum",
+    "tier": 6,
+    "image": "Ooros-Ataltum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Oouitos-Alaiam",
+    "tier": 6,
+    "image": "Oouitos-Alaiam.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oures-Araosum",
+    "tier": 6,
+    "image": "Oures-Araosum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Ouritos-Ataltum",
+    "tier": 6,
+    "image": "Ouritos-Ataltum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Ouritos-Ofailos",
+    "tier": 6,
+    "image": "Ouritos-Ofailos.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Oynites-Araosum",
+    "tier": 6,
+    "image": "Oynites-Araosum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Oynites-Oloblum",
+    "tier": 6,
+    "image": "Oynites-Oloblum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Oynos-Eramtum",
+    "tier": 6,
+    "image": "Oynos-Eramtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Oynos-Oyozam",
+    "tier": 6,
+    "image": "Oynos-Oyozam.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 3
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Pebos-Avosrom",
+    "tier": 6,
+    "image": "Pebos-Avosrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Peros-Aiataum",
+    "tier": 6,
+    "image": "Peros-Aiataum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Petitos-Avosrom",
+    "tier": 6,
+    "image": "Petitos-Avosrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 3
+    }
+  },
+  {
+    "name": "Petos-Aietam",
+    "tier": 6,
+    "image": "Petos-Aietam.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 4
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Pieos-Ofairom",
+    "tier": 6,
+    "image": "Pieos-Ofairom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Pirites-Unatam",
+    "tier": 6,
+    "image": "Pirites-Unatam.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Piritos-Ofavam",
+    "tier": 6,
+    "image": "Piritos-Ofavam.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 4
+    }
+  },
+  {
+    "name": "Piritos-Opabrom",
+    "tier": 6,
+    "image": "Piritos-Opabrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 2
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Poues-Unatam",
+    "tier": 6,
+    "image": "Poues-Unatam.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Pouitos-Ofairom",
+    "tier": 6,
+    "image": "Pouitos-Ofairom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Puros-Ofavam",
+    "tier": 6,
+    "image": "Puros-Ofavam.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 4
+    }
+  },
+  {
+    "name": "Puyitos-Aiataum",
+    "tier": 6,
+    "image": "Puyitos-Aiataum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Pynitos-Aietam",
+    "tier": 6,
+    "image": "Pynitos-Aietam.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Pynos-Opabrom",
+    "tier": 6,
+    "image": "Pynos-Opabrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 2
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Qiient Al Tersas",
+    "tier": 6,
+    "image": "Qiient Al Tersas.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient Et Qinsum",
+    "tier": 6,
+    "image": "Qiient Et Qinsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient In Viesis",
+    "tier": 6,
+    "image": "Qiient In Viesis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient Qi Odesas",
+    "tier": 6,
+    "image": "Qiient Qi Odesas.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Al-Odesum",
+    "tier": 6,
+    "image": "Qiient-Al-Odesum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Al-Qinsis",
+    "tier": 6,
+    "image": "Qiient-Al-Qinsis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Al-Viesis",
+    "tier": 6,
+    "image": "Qiient-Al-Viesis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Al-Vynsis",
+    "tier": 6,
+    "image": "Qiient-Al-Vynsis.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Et-Nusas",
+    "tier": 6,
+    "image": "Qiient-Et-Nusas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Et-Odetis",
+    "tier": 6,
+    "image": "Qiient-Et-Odetis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Et-Tertum",
+    "tier": 6,
+    "image": "Qiient-Et-Tertum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-In-Nutis",
+    "tier": 6,
+    "image": "Qiient-In-Nutis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-In-Qinsis",
+    "tier": 6,
+    "image": "Qiient-In-Qinsis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Nutis",
+    "tier": 6,
+    "image": "Qiient-Nutis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Oc-Odetum",
+    "tier": 6,
+    "image": "Qiient-Oc-Odetum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Odesas",
+    "tier": 6,
+    "image": "Qiient-Odesas.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Qi-Nusom",
+    "tier": 6,
+    "image": "Qiient-Qi-Nusom.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Qi-Tersas",
+    "tier": 6,
+    "image": "Qiient-Qi-Tersas.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Qi-Vynsis",
+    "tier": 6,
+    "image": "Qiient-Qi-Vynsis.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Qinsum",
+    "tier": 6,
+    "image": "Qiient-Qinsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Sa-Odetis",
+    "tier": 6,
+    "image": "Qiient-Sa-Odetis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Si-Nusas",
+    "tier": 6,
+    "image": "Qiient-Si-Nusas.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Si-Nusas",
+    "tier": 6,
+    "image": "Qiient-Si-Nusas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Si-Odesum",
+    "tier": 6,
+    "image": "Qiient-Si-Odesum.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 4
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Si-Tertum",
+    "tier": 6,
+    "image": "Qiient-Si-Tertum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Tersom",
+    "tier": 6,
+    "image": "Qiient-Tersom.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiient-Vyntum",
+    "tier": 6,
+    "image": "Qiient-Vyntum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiitun Duosum",
+    "tier": 6,
+    "image": "Qiitun Duosum.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiitun-Al-Duosum",
+    "tier": 6,
+    "image": "Qiitun-Al-Duosum.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiitun-Et-Vietis",
+    "tier": 6,
+    "image": "Qiitun-Et-Vietis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiitun-Et-Vynsom",
+    "tier": 6,
+    "image": "Qiitun-Et-Vynsom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiitun-Si-Vynsom",
+    "tier": 6,
+    "image": "Qiitun-Si-Vynsom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Qiitun-Vietis",
+    "tier": 6,
+    "image": "Qiitun-Vietis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent In Nusis",
+    "tier": 6,
+    "image": "Quaent In Nusis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Nusis",
+    "tier": 6,
+    "image": "Quaent-Al-Nusis.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Nusis",
+    "tier": 6,
+    "image": "Quaent-Al-Nusis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Odesum",
+    "tier": 6,
+    "image": "Quaent-Al-Odesum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Qintis",
+    "tier": 6,
+    "image": "Quaent-Al-Qintis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Tersis",
+    "tier": 6,
+    "image": "Quaent-Al-Tersis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Viesom",
+    "tier": 6,
+    "image": "Quaent-Al-Viesom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Al-Vynsum",
+    "tier": 6,
+    "image": "Quaent-Al-Vynsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-In-Odesum",
+    "tier": 6,
+    "image": "Quaent-In-Odesum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Qintis",
+    "tier": 6,
+    "image": "Quaent-Qintis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Tersis",
+    "tier": 6,
+    "image": "Quaent-Tersis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Viesom",
+    "tier": 6,
+    "image": "Quaent-Viesom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quaent-Vynsum",
+    "tier": 6,
+    "image": "Quaent-Vynsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quatun Odetum",
+    "tier": 6,
+    "image": "Quatun Odetum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quatun-Et-Nusas",
+    "tier": 6,
+    "image": "Quatun-Et-Nusas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quatun-Et-Odetum",
+    "tier": 6,
+    "image": "Quatun-Et-Odetum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Quatun-Nusas",
+    "tier": 6,
+    "image": "Quatun-Nusas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sases-Avuotum",
+    "tier": 6,
+    "image": "Sases-Avuotum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sasitos-Oyarlum",
+    "tier": 6,
+    "image": "Sasitos-Oyarlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sasitos-Ugersum",
+    "tier": 6,
+    "image": "Sasitos-Ugersum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Sasos-Egeylos",
+    "tier": 6,
+    "image": "Sasos-Egeylos.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Sasos-Oiozlum",
+    "tier": 6,
+    "image": "Sasos-Oiozlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Sebos-Ugersum",
+    "tier": 6,
+    "image": "Sebos-Ugersum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Secent Al Tersum",
+    "tier": 6,
+    "image": "Secent Al Tersum.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent Nutum",
+    "tier": 6,
+    "image": "Secent Nutum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Al-Duosom",
+    "tier": 6,
+    "image": "Secent-Al-Duosom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Al-Nutum",
+    "tier": 6,
+    "image": "Secent-Al-Nutum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Al-Qinsom",
+    "tier": 6,
+    "image": "Secent-Al-Qinsom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Al-Viesum",
+    "tier": 6,
+    "image": "Secent-Al-Viesum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Duosom",
+    "tier": 6,
+    "image": "Secent-Duosom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Et-Odesis",
+    "tier": 6,
+    "image": "Secent-Et-Odesis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Et-Qinsas",
+    "tier": 6,
+    "image": "Secent-Et-Qinsas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Et-Vyntum",
+    "tier": 6,
+    "image": "Secent-Et-Vyntum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-In-Tersum",
+    "tier": 6,
+    "image": "Secent-In-Tersum.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Odesom",
+    "tier": 6,
+    "image": "Secent-Odesom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Qi-Qinsom",
+    "tier": 6,
+    "image": "Secent-Qi-Qinsom.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Sa-Odesis",
+    "tier": 6,
+    "image": "Secent-Sa-Odesis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Si-Odetis",
+    "tier": 6,
+    "image": "Secent-Si-Odetis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Si-Qinsas",
+    "tier": 6,
+    "image": "Secent-Si-Qinsas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Viesum",
+    "tier": 6,
+    "image": "Secent-Viesum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Secent-Vyntum",
+    "tier": 6,
+    "image": "Secent-Vyntum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun In Odesis",
+    "tier": 6,
+    "image": "Sectun In Odesis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun-Et-Tersas",
+    "tier": 6,
+    "image": "Sectun-Et-Tersas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun-In-Qinsom",
+    "tier": 6,
+    "image": "Sectun-In-Qinsom.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun-In-Vyntis",
+    "tier": 6,
+    "image": "Sectun-In-Vyntis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun-Oc-Odesis",
+    "tier": 6,
+    "image": "Sectun-Oc-Odesis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun-Qinsom",
+    "tier": 6,
+    "image": "Sectun-Qinsom.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sectun-Tersas",
+    "tier": 6,
+    "image": "Sectun-Tersas.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Seritos-Egeylos",
+    "tier": 6,
+    "image": "Seritos-Egeylos.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Seritos-Onaytum",
+    "tier": 6,
+    "image": "Seritos-Onaytum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 1
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Setent Nusum",
+    "tier": 6,
+    "image": "Setent Nusum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Al-Duosas",
+    "tier": 6,
+    "image": "Setent-Al-Duosas.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Al-Qinsum",
+    "tier": 6,
+    "image": "Setent-Al-Qinsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Al-Vietis",
+    "tier": 6,
+    "image": "Setent-Al-Vietis.png",
+    "chests": {
+      "blue": 2,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Duosas",
+    "tier": 6,
+    "image": "Setent-Duosas.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Et-Nusum",
+    "tier": 6,
+    "image": "Setent-Et-Nusum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Et-Qintis",
+    "tier": 6,
+    "image": "Setent-Et-Qintis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-In-Qinsum",
+    "tier": 6,
+    "image": "Setent-In-Qinsum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Qintis",
+    "tier": 6,
+    "image": "Setent-Qintis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setent-Vietis",
+    "tier": 6,
+    "image": "Setent-Vietis.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Setitos-Obobrom",
+    "tier": 6,
+    "image": "Setitos-Obobrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Setos-Aiaitum",
+    "tier": 6,
+    "image": "Setos-Aiaitum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Setos-Avamsum",
+    "tier": 6,
+    "image": "Setos-Avamsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Settun In Nusis",
+    "tier": 6,
+    "image": "Settun In Nusis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Al-Nusis",
+    "tier": 6,
+    "image": "Settun-Al-Nusis.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Al-Odetum",
+    "tier": 6,
+    "image": "Settun-Al-Odetum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Al-Vyntis",
+    "tier": 6,
+    "image": "Settun-Al-Vyntis.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Et-Odetum",
+    "tier": 6,
+    "image": "Settun-Et-Odetum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-In-Odetum",
+    "tier": 6,
+    "image": "Settun-In-Odetum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Odetum",
+    "tier": 6,
+    "image": "Settun-Odetum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Tersom",
+    "tier": 6,
+    "image": "Settun-Tersom.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Settun-Vynsis",
+    "tier": 6,
+    "image": "Settun-Vynsis.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sieos-Ofugtum",
+    "tier": 6,
+    "image": "Sieos-Ofugtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Silos-Oyarlum",
+    "tier": 6,
+    "image": "Silos-Oyarlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Siros-Obobrom",
+    "tier": 6,
+    "image": "Siros-Obobrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Siros-Ofurlos",
+    "tier": 6,
+    "image": "Siros-Ofurlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Soritos-Aiaitum",
+    "tier": 6,
+    "image": "Soritos-Aiaitum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Soritos-Avamsum",
+    "tier": 6,
+    "image": "Soritos-Avamsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Soues-Uzurtum",
+    "tier": 6,
+    "image": "Soues-Uzurtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Souitos-Oiozlum",
+    "tier": 6,
+    "image": "Souitos-Oiozlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 3
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Souos-Availos",
+    "tier": 6,
+    "image": "Souos-Availos.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Souos-Ososlos",
+    "tier": 6,
+    "image": "Souos-Ososlos.png",
+    "chests": {
+      "blue": 2,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Suyites-Avuotum",
+    "tier": 6,
+    "image": "Suyites-Avuotum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Suyites-Uzurtum",
+    "tier": 6,
+    "image": "Suyites-Uzurtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Suyitos-Ofugtum",
+    "tier": 6,
+    "image": "Suyitos-Ofugtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "stone": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Suyos-Onaytum",
+    "tier": 6,
+    "image": "Suyos-Onaytum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 1
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Synitos-Availos",
+    "tier": 6,
+    "image": "Synitos-Availos.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Synitos-Ofurlos",
+    "tier": 6,
+    "image": "Synitos-Ofurlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Synitos-Ososlos",
+    "tier": 6,
+    "image": "Synitos-Ososlos.png",
+    "chests": {
+      "blue": 2,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Tasitos-Obayam",
+    "tier": 6,
+    "image": "Tasitos-Obayam.png",
+    "chests": {
+      "blue": 3,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tasitos-Ulaurom",
+    "tier": 6,
+    "image": "Tasitos-Ulaurom.png",
+    "chests": {
+      "blue": 0,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tasos-Iriglos",
+    "tier": 6,
+    "image": "Tasos-Iriglos.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tebitos-Odoxlum",
+    "tier": 6,
+    "image": "Tebitos-Odoxlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tetos-Ulaurom",
+    "tier": 6,
+    "image": "Tetos-Ulaurom.png",
+    "chests": {
+      "blue": 0,
+      "green": 8,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tieitos-Eyexrom",
+    "tier": 6,
+    "image": "Tieitos-Eyexrom.png",
+    "chests": {
+      "blue": 2,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Tieitos-Ouultum",
+    "tier": 6,
+    "image": "Tieitos-Ouultum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "ore": 2,
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tiros-Odoxlum",
+    "tier": 6,
+    "image": "Tiros-Odoxlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tiros-Ouultum",
+    "tier": 6,
+    "image": "Tiros-Ouultum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "ore": 2,
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tonitos-Igurlum",
+    "tier": 6,
+    "image": "Tonitos-Igurlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Tonitos-Uxavrom",
+    "tier": 6,
+    "image": "Tonitos-Uxavrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tonos-Obayam",
+    "tier": 6,
+    "image": "Tonos-Obayam.png",
+    "chests": {
+      "blue": 3,
+      "green": 3,
+      "gold": 0
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Toritos-Iriglos",
+    "tier": 6,
+    "image": "Toritos-Iriglos.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Tynos-Eyexrom",
+    "tier": 6,
+    "image": "Tynos-Eyexrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tynos-Igurlum",
+    "tier": 6,
+    "image": "Tynos-Igurlum.png",
+    "chests": {
+      "blue": 1,
+      "green": 1,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Tynos-Uxavrom",
+    "tier": 6,
+    "image": "Tynos-Uxavrom.png",
+    "chests": {
+      "blue": 1,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xases-Ataglos",
+    "tier": 6,
+    "image": "Xases-Ataglos.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xases-Oxoulum",
+    "tier": 6,
+    "image": "Xases-Oxoulum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xasos-Aoemaum",
+    "tier": 6,
+    "image": "Xasos-Aoemaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xasos-Oneulum",
+    "tier": 6,
+    "image": "Xasos-Oneulum.png",
+    "chests": {
+      "blue": 2,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xebitos-Oyogam",
+    "tier": 6,
+    "image": "Xebitos-Oyogam.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xebos-Emimsum",
+    "tier": 6,
+    "image": "Xebos-Emimsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xebos-Exostum",
+    "tier": 6,
+    "image": "Xebos-Exostum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xerites-Oxoulum",
+    "tier": 6,
+    "image": "Xerites-Oxoulum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xetitos-Emimsum",
+    "tier": 6,
+    "image": "Xetitos-Emimsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "ore": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xetitos-Oneulum",
+    "tier": 6,
+    "image": "Xetitos-Oneulum.png",
+    "chests": {
+      "blue": 2,
+      "green": 0,
+      "gold": 2
+    },
+    "resources": {
+      "hide": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xetos-Obursum",
+    "tier": 6,
+    "image": "Xetos-Obursum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xilitos-Aoemaum",
+    "tier": 6,
+    "image": "Xilitos-Aoemaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xilos-Osayam",
+    "tier": 6,
+    "image": "Xilos-Osayam.png",
+    "chests": {
+      "blue": 2,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Xiros-Aiairom",
+    "tier": 6,
+    "image": "Xiros-Aiairom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xoritos-Aiairom",
+    "tier": 6,
+    "image": "Xoritos-Aiairom.png",
+    "chests": {
+      "blue": 1,
+      "green": 2,
+      "gold": 2
+    },
+    "resources": {
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xoritos-Exostum",
+    "tier": 6,
+    "image": "Xoritos-Exostum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xoritos-Osayam",
+    "tier": 6,
+    "image": "Xoritos-Osayam.png",
+    "chests": {
+      "blue": 2,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {},
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Xurites-Ataglos",
+    "tier": 6,
+    "image": "Xurites-Ataglos.png",
+    "chests": {
+      "blue": 1,
+      "green": 3,
+      "gold": 1
+    },
+    "resources": {
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Xynitos-Obursum",
+    "tier": 6,
+    "image": "Xynitos-Obursum.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Xynos-Oyogam",
+    "tier": 6,
+    "image": "Xynos-Oyogam.png",
+    "chests": {
+      "blue": 2,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Cieitos-Otatrom",
+    "tier": 8,
+    "image": "Cieitos-Otatrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Cilos-Otatrom",
+    "tier": 8,
+    "image": "Cilos-Otatrom.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 2
+    },
+    "resources": {
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fasites-Azazsum",
+    "tier": 8,
+    "image": "Fasites-Azazsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Febites-Opavun",
+    "tier": 8,
+    "image": "Febites-Opavun.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Ferites-Ohohtum",
+    "tier": 8,
+    "image": "Ferites-Ohohtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Fiees-Ohohtum",
+    "tier": 8,
+    "image": "Fiees-Ohohtum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Files-Azazsum",
+    "tier": 8,
+    "image": "Files-Azazsum.png",
+    "chests": {
+      "blue": 0,
+      "green": 7,
+      "gold": 0
+    },
+    "resources": {
+      "ore": 2,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Filites-Izohun",
+    "tier": 8,
+    "image": "Filites-Izohun.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Filitos-Uzazlum",
+    "tier": 8,
+    "image": "Filitos-Uzazlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Firos-Ezatam",
+    "tier": 8,
+    "image": "Firos-Ezatam.png",
+    "chests": {
+      "blue": 1,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fones-Opavun",
+    "tier": 8,
+    "image": "Fones-Opavun.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "wood": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Foros-Uzazlum",
+    "tier": 8,
+    "image": "Foros-Uzazlum.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1,
+      "hide": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Fuyes-Izohun",
+    "tier": 8,
+    "image": "Fuyes-Izohun.png",
+    "chests": {
+      "blue": 1,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Fynitos-Ezatam",
+    "tier": 8,
+    "image": "Fynitos-Ezatam.png",
+    "chests": {
+      "blue": 1,
+      "green": 4,
+      "gold": 1
+    },
+    "resources": {
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hiles-Izizaum",
+    "tier": 8,
+    "image": "Hiles-Izizaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Honites-Izizaum",
+    "tier": 8,
+    "image": "Honites-Izizaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 0,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Honos-Oyezam",
+    "tier": 8,
+    "image": "Honos-Oyezam.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Hurites-Ieatun",
+    "tier": 8,
+    "image": "Hurites-Ieatun.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hynes-Ieatun",
+    "tier": 8,
+    "image": "Hynes-Ieatun.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Hynitos-Oyezam",
+    "tier": 8,
+    "image": "Hynitos-Oyezam.png",
+    "chests": {
+      "blue": 0,
+      "green": 5,
+      "gold": 1
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Sasos-Abizaum",
+    "tier": 8,
+    "image": "Sasos-Abizaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Sebos-Oyohun",
+    "tier": 8,
+    "image": "Sebos-Oyohun.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 2
+    }
+  },
+  {
+    "name": "Silitos-Abizaum",
+    "tier": 8,
+    "image": "Silitos-Abizaum.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 3
+    },
+    "resources": {
+      "ore": 1,
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Siritos-Oyohun",
+    "tier": 8,
+    "image": "Siritos-Oyohun.png",
+    "chests": {
+      "blue": 0,
+      "green": 2,
+      "gold": 1
+    },
+    "resources": {
+      "stone": 1,
+      "wood": 1,
+      "fiber": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 0
+    }
+  },
+  {
+    "name": "Suyitos-Oyarlos",
+    "tier": 8,
+    "image": "Suyitos-Oyarlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Synos-Oyarlos",
+    "tier": 8,
+    "image": "Synos-Oyarlos.png",
+    "chests": {
+      "blue": 0,
+      "green": 6,
+      "gold": 0
+    },
+    "resources": {
+      "stone": 1,
+      "ore": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tilitos-Ataglos",
+    "tier": 8,
+    "image": "Tilitos-Ataglos.png",
+    "chests": {
+      "blue": 1,
+      "green": 9,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tonos-Aboysum",
+    "tier": 8,
+    "image": "Tonos-Aboysum.png",
+    "chests": {
+      "blue": 0,
+      "green": 1,
+      "gold": 2
+    },
+    "resources": {
+      "ore": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Touos-Ataglos",
+    "tier": 8,
+    "image": "Touos-Ataglos.png",
+    "chests": {
+      "blue": 1,
+      "green": 9,
+      "gold": 0
+    },
+    "resources": {
+      "hide": 1
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
+    }
+  },
+  {
+    "name": "Tuyitos-Aboysum",
+    "tier": 8,
+    "image": "Tuyitos-Aboysum.png",
+    "chests": {
+      "blue": 0,
+      "green": 3,
+      "gold": 2
+    },
+    "resources": {
+      "ore": 1,
+      "fiber": 2
+    },
+    "dungeons": {
+      "solo": 0,
+      "group": 1
     }
   }
 ]

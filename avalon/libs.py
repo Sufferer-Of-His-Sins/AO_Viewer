@@ -3,11 +3,13 @@ import sys
 import json
 import subprocess
 import threading
+import tkinter as tk
+
 
 import customtkinter as ctk
 import pytesseract
 import queue
-from PIL import Image, ImageEnhance, ImageGrab, ImageOps
+from PIL import Image, ImageEnhance, ImageGrab, ImageOps, ImageDraw
 from tkinter import PhotoImage
 
 from avalon.i18n import Translator

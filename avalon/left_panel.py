@@ -1,6 +1,6 @@
 from avalon.libs import *
 from avalon.theme import *
-
+ROW_H = 36
 class LeftPanel(ctk.CTkFrame):
     def __init__(
         self,
@@ -24,13 +24,11 @@ class LeftPanel(ctk.CTkFrame):
         self.tr = translator
         self.on_select = on_select
         self.on_search = on_search
-        self.cache = {}
-        self.buttons = {}
-        self.rows = []
+        self.current_maps = []
         self.shown_names = None
         self.selected = None
+        self.hover = None
         self.count = 0
-        self.empty_label = None
 
         self.grid_propagate(False)
         self.grid_rowconfigure(5, weight=1)
@@ -39,8 +37,9 @@ class LeftPanel(ctk.CTkFrame):
         header = ctk.CTkFrame(self, fg_color="transparent")
         header.grid(row=0, column=0, sticky="ew", padx=16, pady=(16, 4))
         self.logo = self._load_logo()
-        if self.logo: ctk.CTkLabel(header, image=self.logo, text="").pack(side="left", padx=(0, 10))
-        
+        if self.logo:
+            ctk.CTkLabel(header, image=self.logo, text="").pack(side="left", padx=(0, 10))
+
         ctk.CTkLabel(
             header,
             text=self.tr.t("app_title"),
@@ -123,13 +122,30 @@ class LeftPanel(ctk.CTkFrame):
         )
         self.count_label.grid(row=4, column=0, sticky="ew", padx=18, pady=(8, 0))
 
-        self.map_listbox = ctk.CTkScrollableFrame(
-            self,
-            fg_color="transparent",
-            scrollbar_button_color=CARD_HOVER,
-            scrollbar_button_hover_color=BORDER,
+        list_wrap = ctk.CTkFrame(self, fg_color="transparent")
+        list_wrap.grid(row=5, column=0, sticky="nsew", padx=(8, 4), pady=4)
+        list_wrap.grid_rowconfigure(0, weight=1)
+        list_wrap.grid_columnconfigure(0, weight=1)
+
+        self.canvas = tk.Canvas(
+            list_wrap,
+            bg=PANEL,
+            highlightthickness=0,
+            bd=0,
+            relief="flat",
         )
-        self.map_listbox.grid(row=5, column=0, sticky="nsew", padx=(8, 4), pady=4)
+        self.canvas.grid(row=0, column=0, sticky="nsew")
+        self.scroll = ctk.CTkScrollbar(list_wrap, command=self.canvas.yview)
+        self.scroll.grid(row=0, column=1, sticky="ns")
+        self.canvas.configure(yscrollcommand=self.scroll.set)
+
+        self.canvas.bind("<Button-1>", self._on_click)
+        self.canvas.bind("<Motion>", self._on_motion)
+        self.canvas.bind("<Leave>", self._on_leave)
+        self.canvas.bind("<Configure>", self._on_canvas_resize)
+        self.canvas.bind("<MouseWheel>", self._on_mousewheel)
+        self.canvas.bind("<Button-4>", lambda e: self.canvas.yview_scroll(-4, "units"))
+        self.canvas.bind("<Button-5>", lambda e: self.canvas.yview_scroll(4, "units"))
 
         status_box = ctk.CTkFrame(self, fg_color=CARD, corner_radius=10)
         status_box.grid(row=6, column=0, sticky="ew", padx=14, pady=(4, 14))
@@ -153,7 +169,7 @@ class LeftPanel(ctk.CTkFrame):
             return ctk.CTkImage(light_image=img, dark_image=img, size=(34, 34))
         except Exception:
             return None
-    
+
     def set_status(self, text: str):
         self.status.configure(text=text)
 
@@ -174,73 +190,139 @@ class LeftPanel(ctk.CTkFrame):
         if names == self.shown_names:
             return
         self.shown_names = names
-
-        for row in self.rows:
-            row.pack_forget()
-        self.rows = []
-        if self.empty_label:
-            self.empty_label.pack_forget()
-
+        self.current_maps = list(maps)
+        self.hover = None
         self.count = len(maps)
         self._update_count()
+        self._rebuild()
 
-        if not maps:
-            if not self.empty_label:
-                self.empty_label = ctk.CTkLabel(
-                    self.map_listbox,
-                    text=self.tr.t("map_not_found"),
-                    text_color=TEXT_FAINT,
-                )
-            self.empty_label.pack(pady=24)
+    def _rebuild(self):
+        self.canvas.delete("all")
+        width = max(self.canvas.winfo_width(), 220)
+        if not self.current_maps:
+            self.canvas.create_text(
+                width // 2,
+                40,
+                text=self.tr.t("map_not_found"),
+                fill=TEXT_FAINT,
+                font=("TkDefaultFont", 12),
+            )
+            self.canvas.configure(scrollregion=(0, 0, width, 80))
             return
 
-        for m in maps:
-            row = self._get_row(m)
-            row.pack(fill="x", pady=1)
-            self.rows.append(row)
+        for i in range(len(self.current_maps)):
+            self._paint_row(i, width)
+        self.canvas.configure(scrollregion=(0, 0, width, len(self.current_maps) * ROW_H))
 
-    def _get_row(self, m):
-        name = m["name"]
-        if name in self.cache:
-            return self.cache[name]
-
-        tier = m.get("tier", "?")
-        row = ctk.CTkFrame(self.map_listbox, fg_color="transparent")
-
-        badge = ctk.CTkLabel(
-            row,
-            text=f"T{tier}",
-            width=34,
-            height=24,
-            corner_radius=7,
-            fg_color=tier_color(tier),
-            text_color="#101216",
-            font=ctk.CTkFont(size=12, weight="bold"),
+    def _round(self, x1, y1, x2, y2, r, **kwargs):
+        r = min(r, (x2 - x1) / 2, (y2 - y1) / 2)
+        return self.canvas.create_polygon(
+            x1 + r, y1,
+            x2 - r, y1,
+            x2, y1,
+            x2, y1 + r,
+            x2, y2 - r,
+            x2, y2,
+            x2 - r, y2,
+            x1 + r, y2,
+            x1, y2,
+            x1, y2 - r,
+            x1, y1 + r,
+            x1, y1,
+            smooth=True,
+            **kwargs,
         )
-        badge.pack(side="left", padx=(4, 6))
-        badge.bind("<Button-1>", lambda e, n=name: self.on_select(n))
 
-        btn = ctk.CTkButton(
-            row,
+    def _paint_row(self, i, width=None):
+        self.canvas.delete(f"row{i}")
+        m = self.current_maps[i]
+        if width is None:
+            width = max(self.canvas.winfo_width(), 220)
+        y = i * ROW_H
+        name = m["name"]
+        selected = name == self.selected
+        hover = i == self.hover
+        bg = ACCENT_DIM if selected else (CARD_HOVER if hover else "")
+        tags = (f"row{i}",)
+        if bg:
+            self._round(
+                4, y + 2, width - 6, y + ROW_H - 2,
+                8, fill=bg, outline="", tags=tags,
+            )
+        tier = m.get("tier", "?")
+        self._round(
+            8, y + 6, 46, y + ROW_H - 6,
+            7, fill=tier_color(tier), outline="", tags=tags,
+        )
+        self.canvas.create_text(
+            27, y + ROW_H // 2,
+            text=f"T{tier}",
+            fill="#101216",
+            font=("TkDefaultFont", 9, "bold"),
+            tags=tags,
+        )
+        self.canvas.create_text(
+            54, y + ROW_H // 2,
             text=name,
             anchor="w",
-            height=34,
-            corner_radius=8,
-            fg_color=ACCENT_DIM if name == self.selected else "transparent",
-            hover_color=CARD_HOVER,
-            text_color=TEXT,
-            command=lambda n=name: self.on_select(n),
+            fill=TEXT,
+            font=("TkDefaultFont", 12),
+            tags=tags,
         )
-        btn.pack(side="left", fill="x", expand=True)
 
-        self.cache[name] = row
-        self.buttons[name] = btn
-        return row
+    def _row_at(self, event):
+        if not self.current_maps:
+            return None
+        y = self.canvas.canvasy(event.y)
+        idx = int(y // ROW_H)
+        if 0 <= idx < len(self.current_maps):
+            return idx
+        return None
+
+    def _on_click(self, event):
+        idx = self._row_at(event)
+        if idx is None:
+            return
+        self.on_select(self.current_maps[idx]["name"])
+
+    def _on_motion(self, event):
+        idx = self._row_at(event)
+        if idx == self.hover:
+            return
+        old = self.hover
+        self.hover = idx
+        self.canvas.configure(cursor="hand2" if idx is not None else "")
+        if old is not None:
+            self._paint_row(old)
+        if idx is not None:
+            self._paint_row(idx)
+
+    def _on_leave(self, _event=None):
+        old = self.hover
+        self.hover = None
+        self.canvas.configure(cursor="")
+        if old is not None:
+            self._paint_row(old)
+
+    def _on_canvas_resize(self, _event=None):
+        if self.current_maps or self.shown_names is not None:
+            self._rebuild()
+
+    def _on_mousewheel(self, event):
+        step = -1 if event.delta > 0 else 1
+        self.canvas.yview_scroll(step * 3, "units")
 
     def set_selected(self, name: str):
+        old = self.selected
         self.selected = name
-        for n, btn in self.buttons.items():
-            btn.configure(fg_color=ACCENT_DIM if n == name else "transparent")
+        for i, m in enumerate(self.current_maps):
+            if m["name"] in (old, name):
+                self._paint_row(i)
+        for i, m in enumerate(self.current_maps):
+            if m["name"] == name:
+                total = max(len(self.current_maps) * ROW_H, 1)
+                self.canvas.yview_moveto(max(0, (i * ROW_H - ROW_H) / total))
+                break
 
     def _update_count(self):
         word = "Карт" if self.tr.lang == "ru" else "Maps"
@@ -256,7 +338,7 @@ class LeftPanel(ctk.CTkFrame):
             self.ocr_btn.configure(text="OCR (область)")
             self.paste_btn.configure(text="Из буфера")
         self._update_count()
-        if self.empty_label:
-            self.empty_label.configure(text=self.tr.t("map_not_found"))
+        if not self.current_maps:
+            self._rebuild()
         if not self.status.cget("text"):
             self.status.configure(text=self.tr.t("ocr_status_ready"))

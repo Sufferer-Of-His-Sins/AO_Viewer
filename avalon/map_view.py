@@ -1,5 +1,3 @@
-from PIL import ImageDraw
-
 from avalon.libs import *
 from avalon.theme import *
 
@@ -27,6 +25,7 @@ class MapView(ctk.CTkFrame):
         self._photo_ref = None
         self._pil = None
         self._resize_job = None
+        self._last_real = None
 
         self.grid_propagate(False)
         self.grid_rowconfigure(0, weight=1)
@@ -48,6 +47,7 @@ class MapView(ctk.CTkFrame):
 
     def show_placeholder(self, text: str):
         self._pil = None
+        self._last_real = None
         self.image_label.grid_remove()
         self.placeholder.configure(text=text)
         self.placeholder.grid()
@@ -58,7 +58,11 @@ class MapView(ctk.CTkFrame):
             self.show_placeholder(f"no image\n{img_path.name}")
             return False
         try:
-            self._pil = Image.open(img_path).convert("RGBA")
+            img = Image.open(img_path)
+            img.draft("RGBA", (1600, 1600))
+            img.thumbnail((1600, 1600), Image.Resampling.BILINEAR)
+            self._pil = img.convert("RGBA")
+            self._last_real = None
         except Exception as e:
             self.show_placeholder(f"Image error:\n{e}")
             return False
@@ -73,7 +77,7 @@ class MapView(ctk.CTkFrame):
             return
         if self._resize_job:
             self.after_cancel(self._resize_job)
-        self._resize_job = self.after(120, self._render)
+        self._resize_job = self.after(150, self._render)
 
     def _render(self):
         self._resize_job = None
@@ -95,8 +99,12 @@ class MapView(ctk.CTkFrame):
         scale = min(avail_w / iw, avail_h / ih, 2.0)
         size = (max(1, int(iw * scale)), max(1, int(ih * scale)))
         real = (max(1, int(size[0] * scaling)), max(1, int(size[1] * scaling)))
+        if self._last_real is not None:
+            if abs(self._last_real[0] - real[0]) < 12 and abs(self._last_real[1] - real[1]) < 12:
+                return
+        self._last_real = real
 
-        img = self._pil.resize(real, Image.Resampling.LANCZOS)
+        img = self._pil.resize(real, Image.Resampling.BILINEAR)
         img = round_corners(img, int(14 * scaling))
         ctk_img = ctk.CTkImage(light_image=img, dark_image=img, size=size)
         self.image_label.configure(image=ctk_img, text="")
