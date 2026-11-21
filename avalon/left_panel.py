@@ -205,7 +205,7 @@ class LeftPanel(ctk.CTkFrame):
                 40,
                 text=self.tr.t("map_not_found"),
                 fill=TEXT_FAINT,
-                font=("TkDefaultFont", 12),
+                font=("Arial", 12),
             )
             self.canvas.configure(scrollregion=(0, 0, width, 80))
             return
@@ -258,7 +258,7 @@ class LeftPanel(ctk.CTkFrame):
             27, y + ROW_H // 2,
             text=f"T{tier}",
             fill="#101216",
-            font=("TkDefaultFont", 9, "bold"),
+            font=("Arial", 9, "bold"),
             tags=tags,
         )
         self.canvas.create_text(
@@ -266,7 +266,7 @@ class LeftPanel(ctk.CTkFrame):
             text=name,
             anchor="w",
             fill=TEXT,
-            font=("TkDefaultFont", 12),
+            font=("Arial", 12),
             tags=tags,
         )
 
