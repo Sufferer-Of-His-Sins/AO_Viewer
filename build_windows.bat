@@ -134,7 +134,6 @@ goto fail
 
 :end
 echo.
-echo You can close this window.
 exit /b 0
 
 :fail
