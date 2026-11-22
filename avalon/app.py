@@ -54,7 +54,7 @@ class AvalonMapViewer(ctk.CTk):
 
         hotkey_ok = bind_ocr_hotkey(lambda: self.events.put(self.trigger_ocr_region))
         if not hotkey_ok:
-            self.left.set_status("Хоткей Ctrl+Shift+A недоступен - используй кнопки OCR")
+            self.left.set_status("Хоткей Ctrl+Shift+Z недоступен - используй кнопки OCR")
 
         self.after(100, self._poll_events)
         self.after(100, lambda: self.left.search_entry.focus())
@@ -138,8 +138,21 @@ class AvalonMapViewer(ctk.CTk):
         if self.ocr_running:
             return
         self.ocr_running = True
+        self.left.set_status(self.tr.t("ocr_select_region"))
+        self.update_idletasks()
+        try:
+            from avalon.snip import grab_region
+            img = grab_region(self)
+        except Exception as e:
+            self.ocr_running = False
+            self.left.set_status(f"OCR error: {e}")
+            return
+        if img is None:
+            self.ocr_running = False
+            self.left.set_status(self.tr.t("ocr_status_ready"))
+            return
         self.left.set_status(self.tr.t("ocr_status_scanning"))
-        threading.Thread(target=self._do_ocr_region, daemon=True).start()
+        threading.Thread(target=self._do_ocr_region, args=(img,), daemon=True).start()
 
     def trigger_ocr_clipboard(self):
         try:
@@ -161,23 +174,24 @@ class AvalonMapViewer(ctk.CTk):
         self.on_search()
         self.left.set_status(f"Clipboard: {text}")
 
-    def _do_ocr_region(self):
+    def _do_ocr_region(self, img):
         try:
-            text = read_name_near_cursor()
+            from avalon.ocr import recognize
+
+            text = recognize(img)
             if not text:
-                msg = self.tr.t("ocr_not_found")
-                self.events.put(lambda: self.left.set_status(msg))
+                self.after(0, lambda: self.left.set_status(self.tr.t("ocr_not_found")))
                 return
 
             found = best_match(self.maps_data, text)
             if found:
                 name = found["name"]
-                self.events.put(lambda: self.select_map(name))
+                self.after(0, lambda n=name: self.select_map(n))
             else:
                 msg = f"{self.tr.t('ocr_not_found')} ({text})"
-                self.events.put(lambda: self.left.set_status(msg))
+                self.after(0, lambda m=msg: self.left.set_status(m))
         except Exception as e:
             msg = f"OCR error: {e}"
-            self.events.put(lambda: self.left.set_status(msg))
+            self.after(0, lambda m=msg: self.left.set_status(m))
         finally:
             self.ocr_running = False
