@@ -92,6 +92,7 @@ if exist dist rmdir /s /q dist
   --icon "%CD%\%ICON%" ^
   --collect-all customtkinter ^
   --hidden-import avalon.snip ^
+  --exclude-module watermark ^
   --exclude-module cv2 --exclude-module numpy ^
   --distpath dist --workpath build\work --specpath build\work ^
   "%CD%\main.py"
