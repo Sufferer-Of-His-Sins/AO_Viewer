@@ -14,7 +14,7 @@
 ---
 
 ## Скриншоты
-<img width="750" height="700" alt="image" src="https://github.com/user-attachments/assets/3090a564-755b-4edc-bcf8-580003e2f9c0" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/3090a564-755b-4edc-bcf8-580003e2f9c0" />
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/59d23bf1-a2eb-4905-b1f9-2b2f99c335d7" />
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/51e9b1b6-421e-433e-a928-daadf5a1aca7" />
 ---
