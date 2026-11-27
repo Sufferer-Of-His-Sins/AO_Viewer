@@ -1,34 +1,4 @@
-from difflib import SequenceMatcher
-
 from avalon.libs import *
-
-
-def normalize(text: str) -> str:
-    return text.lower().replace(" ", "").replace("-", "")
-
-
-def match_score(name: str, query: str):
-    n = normalize(name)
-    q = normalize(query)
-    if not q:
-        return 0
-
-    if n.startswith(q):
-        return 0
-
-    words = name.lower().replace("-", " ").split()
-    if any(w.startswith(q) for w in words):
-        return 1
-
-    if q in n:
-        return 2
-
-    if len(q) >= 4:
-        ratio = SequenceMatcher(None, q, n[:len(q)]).ratio()
-        if ratio >= 0.8:
-            return 3
-
-    return None
 
 
 def load_maps() -> list:
@@ -43,17 +13,20 @@ def load_maps() -> list:
 
 
 def filter_maps(maps: list, query: str) -> list:
-    if not query.strip():
+    query = query.strip().lower()
+    if not query:
         return list(maps)
 
-    found = []
+    filtered = []
     for m in maps:
-        score = match_score(m["name"], query)
-        if score is not None:
-            found.append((score, m["name"].lower(), m))
-
-    found.sort(key=lambda item: (item[0], item[1]))
-    return [m for _, _, m in found]
+        name = m["name"].lower()
+        if query in name or name.startswith(query):
+            filtered.append(m)
+            continue
+        it = iter(name)
+        if all(c in it for c in query):
+            filtered.append(m)
+    return filtered
 
 
 def find_by_name(maps: list, name: str):
@@ -67,32 +40,52 @@ def find_by_name(maps: list, name: str):
     return None
 
 
-def best_match(maps: list, ocr_text: str):
-    ocr = ocr_text.lower().replace(" ", "").replace("-", "")
-    best = None
-    best_score = 0.0
+def _letters(text: str) -> str:
+    return "".join(ch for ch in text.lower() if ch.isalpha())
 
-    for m in maps:
-        name = m["name"].lower().replace(" ", "").replace("-", "")
-        if ocr == name:
-            return m
-        if ocr in name or name in ocr:
-            score = min(len(ocr), len(name)) / max(len(ocr), len(name), 1)
-            if score > best_score:
-                best_score = score
-                best = m
-        else:
-            common = sum(1 for a, b in zip(ocr, name) if a == b)
-            score = common / max(len(ocr), len(name), 1)
-            if score > best_score and score > 0.55:
-                best_score = score
-                best = m
 
-    return best if best_score > 0.5 else None
+def best_match(maps: list, ocr_text):
+    if isinstance(ocr_text, str):
+        candidates = [ocr_text]
+    else:
+        candidates = [item for item in ocr_text if item]
+    if not candidates:
+        return None
+
+    names = [(m, _letters(m["name"])) for m in maps]
+    scores = {}
+    for cand in candidates:
+        query = _letters(cand)
+        if len(query) < 6:
+            continue
+        for m, name in names:
+            if not name:
+                continue
+            if query == name:
+                return m
+            ratio = SequenceMatcher(None, query, name).ratio()
+            prev = scores.get(m["name"])
+            if prev is None or ratio > prev[0]:
+                scores[m["name"]] = (ratio, m)
+
+    if not scores:
+        return None
+
+    ranked = sorted(scores.values(), key=lambda item: -item[0])
+    best_ratio, best_map = ranked[0]
+    second = ranked[1][0] if len(ranked) > 1 else 0.0
+    if best_ratio < 0.88:
+        return None
+    if second >= 0.84 and best_ratio - second < 0.045:
+        return None
+    return best_map
 
 
 def first_search_hit(maps: list, query: str):
-    if not query.strip():
+    query = query.strip().lower()
+    if not query:
         return None
-    found = filter_maps(maps, query)
-    return found[0] if found else None
+    for m in maps:
+        if query in m["name"].lower() or m["name"].lower().startswith(query):
+            return m
+    return None

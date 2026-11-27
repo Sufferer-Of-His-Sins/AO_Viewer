@@ -61,7 +61,7 @@ class MapView(ctk.CTkFrame):
             img = Image.open(img_path)
             img.draft("RGBA", (1600, 1600))
             img.thumbnail((1600, 1600), Image.Resampling.BILINEAR)
-            self._pil = strip_watermark(img.convert("RGBA"))
+            self._pil = img.convert("RGBA")
             self._last_real = None
         except Exception as e:
             self.show_placeholder(f"Image error:\n{e}")

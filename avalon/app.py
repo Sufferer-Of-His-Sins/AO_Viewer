@@ -1,16 +1,13 @@
 from avalon.libs import *
-from avalon.theme import *
+
 
 class AvalonMapViewer(ctk.CTk):
     def __init__(self):
-        ctk.set_appearance_mode("dark")
-        ctk.set_default_color_theme("blue")
-        super().__init__(fg_color=BG)
+        super().__init__()
 
         self.title("Avalon Map Viewer")
         self.geometry("1280x800")
         self.minsize(1000, 650)
-        self._set_icon()
 
         self.tr = Translator("ru")
         self.maps_data = load_maps()
@@ -18,9 +15,9 @@ class AvalonMapViewer(ctk.CTk):
         self.show_chests = ctk.BooleanVar(value=True)
         self.show_resources = ctk.BooleanVar(value=True)
         self.ocr_running = False
-        self.last_query = ""
-        self.search_job = None
-        self.events = queue.Queue()
+
+        ctk.set_appearance_mode("dark")
+        ctk.set_default_color_theme("blue")
 
         self.grid_columnconfigure(0, weight=0)
         self.grid_columnconfigure(1, weight=1)
@@ -37,11 +34,11 @@ class AvalonMapViewer(ctk.CTk):
             on_lang=self.change_language,
             on_select=self.select_map,
         )
-        self.left.grid(row=0, column=0, sticky="nsew", padx=(GAP, GAP // 2), pady=GAP)
+        self.left.grid(row=0, column=0, sticky="nsew")
         self.left.populate(self.maps_data)
 
         self.map_view = MapView(self, self.tr)
-        self.map_view.grid(row=0, column=1, sticky="nsew", padx=GAP // 2, pady=GAP)
+        self.map_view.grid(row=0, column=1, sticky="nsew")
 
         self.info = InfoPanel(
             self,
@@ -50,49 +47,12 @@ class AvalonMapViewer(ctk.CTk):
             self.show_resources,
             on_toggle=self.refresh_info,
         )
-        self.info.grid(row=0, column=2, sticky="nsew", padx=(GAP // 2, GAP), pady=GAP)
+        self.info.grid(row=0, column=2, sticky="nsew")
 
-        hotkey_ok = bind_ocr_hotkey(lambda: self.events.put(self.trigger_ocr_region))
-        if not hotkey_ok:
-            self.left.set_status("Хоткей Ctrl+Shift+Z недоступен - используй кнопки OCR")
-
-        self.after(100, self._poll_events)
+        bind_ocr_hotkey(self.trigger_ocr_region)
         self.after(100, lambda: self.left.search_entry.focus())
 
-    def _set_icon(self):
-        try:
-            if sys.platform == "win32":
-                ico = ASSETS_DIR / "icon.ico"
-                if ico.exists():
-                    self.after(300, lambda: self.iconbitmap(str(ico)))
-            else:
-                png = ASSETS_DIR / "icon.png"
-                if png.exists():
-                    self._icon_img = PhotoImage(file=str(png))
-                    self.iconphoto(True, self._icon_img)
-        except Exception as e:
-            print(f"[icon] {e}")
-
-    def _poll_events(self):
-        try:
-            while True:
-                action = self.events.get_nowait()
-                action()
-        except queue.Empty:
-            pass
-        self.after(50, self._poll_events)
-
     def on_search(self, event=None):
-        text = self.left.search_text()
-        if text == self.last_query:
-            return
-        self.last_query = text
-        if self.search_job:
-            self.after_cancel(self.search_job)
-        self.search_job = self.after(120, self._apply_search)
-
-    def _apply_search(self):
-        self.search_job = None
         self.left.populate(filter_maps(self.maps_data, self.left.search_text()))
 
     def on_search_enter(self, event=None):
@@ -107,9 +67,8 @@ class AvalonMapViewer(ctk.CTk):
             return
 
         self.current_map = m
-        self.info.set_map_header(m["name"], m.get("tier", "?"))
+        self.info.set_map_header(m["name"], m.get("tier"))
         self.map_view.show_map(m)
-        self.left.set_selected(m["name"])
         self.refresh_info()
         self.left.set_status(self.tr.t("ocr_found", name=m["name"]))
 
@@ -130,7 +89,7 @@ class AvalonMapViewer(ctk.CTk):
         else:
             self.info.set_map_header(
                 self.current_map["name"],
-                self.current_map.get("tier", "?"),
+                self.current_map.get("tier"),
             )
             self.refresh_info()
 
@@ -142,6 +101,7 @@ class AvalonMapViewer(ctk.CTk):
         self.update_idletasks()
         try:
             from avalon.snip import grab_region
+
             img = grab_region(self)
         except Exception as e:
             self.ocr_running = False
@@ -156,7 +116,7 @@ class AvalonMapViewer(ctk.CTk):
 
     def trigger_ocr_clipboard(self):
         try:
-            text = self.clipboard_get().strip()[:MAX_SEARCH_LEN]
+            text = self.clipboard_get().strip()
         except Exception as e:
             self.left.set_status(f"Clipboard error: {e}")
             return
@@ -176,19 +136,19 @@ class AvalonMapViewer(ctk.CTk):
 
     def _do_ocr_region(self, img):
         try:
-            from avalon.ocr import recognize
+            from avalon.ocr import recognize_candidates
 
-            text = recognize(img)
-            if not text:
+            variants = recognize_candidates(img)
+            if not variants:
                 self.after(0, lambda: self.left.set_status(self.tr.t("ocr_not_found")))
                 return
 
-            found = best_match(self.maps_data, text)
+            found = best_match(self.maps_data, variants)
             if found:
                 name = found["name"]
                 self.after(0, lambda n=name: self.select_map(n))
             else:
-                msg = f"{self.tr.t('ocr_not_found')} ({text})"
+                msg = f"{self.tr.t('ocr_not_found')} ({variants[0]})"
                 self.after(0, lambda m=msg: self.left.set_status(m))
         except Exception as e:
             msg = f"OCR error: {e}"

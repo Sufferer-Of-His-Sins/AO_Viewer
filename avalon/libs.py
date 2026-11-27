@@ -11,6 +11,7 @@ import tkinter as tk
 import customtkinter as ctk
 import pytesseract
 import queue
+from difflib import SequenceMatcher
 from PIL import Image, ImageEnhance, ImageGrab, ImageOps, ImageDraw, ImageTk
 from tkinter import PhotoImage
 
